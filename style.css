@@ -7,11 +7,13 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #f6f9ff;
+    transition: 1s;
 }
 
 .dark-mode {
     background-color: #111224;
     color: #f6f9ff;
+    transition: 1s;
   }
 
 #pageContainer{
