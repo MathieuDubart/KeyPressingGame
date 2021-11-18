@@ -1,0 +1,68 @@
+<!doctype html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta lang="en">
+            <link href="style.css" rel="stylesheet">
+            <link rel="icon" href="img/keyboard.png">
+            <link rel="preconnect" href="https://fonts.googleapis.com"> 
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+            <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.googleapis.com"> 
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+            <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+            <title> Typing Game </title>
+        </head>
+
+        <body>
+            <div id="pageContainer">
+                <div id="gameTitleContainer">
+                    <div id="gameTitle"> Typing Game </div>
+
+                </div>
+                    <div id="playerOne">
+                        <div class="playerName">
+                            <p class="chosenName">
+                                Player 1
+                            </p>
+                            Press "S"
+                        </div>
+
+                        <div class="playerGaugeContainer">
+                            <div class="playerGauge">
+                                <div class="insidePlayerGauge">
+                                    <div class="whiteGauge" id="whiteGauge1"></div>
+                                </div>
+                            </div> 
+                        </div>
+
+                        <div id="textScorePlayerOne"> Key pressed <p id="scorePlayerOne"> 0 </p> times </div>
+                    </div>
+
+                    <div id="whoIsWinning"></div>
+                    <div id="replayButton"><img src="img/refresh_black.svg" alt="refresh button" id="replayButtonImg"/></div>
+                    <div id="darkmodeButton"><img src="img/dark_mode_black.svg" alt="darkmode button" id="darkmodeButtonImg"></div>
+
+                    <div id="playerTwo">
+                        <div class="playerName">
+                            <p class="chosenName">
+                                Player 2
+                            </p>
+                            Press "L"
+                        </div>
+
+                        <div class="playerGaugeContainer">
+                            <div class="playerGauge">
+                                <div class="insidePlayerGauge">
+                                    <div class="whiteGauge" id="whiteGauge2"></div>
+                                </div>
+                            </div> 
+                        </div>
+
+                        <div id="textScorePlayerTwo"> Key pressed <p id="scorePlayerTwo"> 0 </p> times</div>
+                    </div>  
+
+            </div>
+            <script src="script.js"></script>
+        </body>
+    </html>
