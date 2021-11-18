@@ -20,10 +20,9 @@ let darkmodeIsOn = false
 const body = document.body
 
 //display a textbox asking for players' names (default names are "Player 1 and Player 2")
-let tempPlayerOneName = "Player1"
-let tempPlayerTwoName = "Player 2"
-tempPlayerOneName =  prompt("Enter Player 1's name")
-tempPlayerTwoName = prompt("Enter Player 2's name")
+let tempPlayerOneName =prompt("Enter Player 1's name", "Player 1")
+let tempPlayerTwoName =prompt("Enter Player 2's name", "Player 2")
+
 
 //display names w/ an Upper Case on first letter
 let firstLetterP1 = tempPlayerOneName.charAt(0)
